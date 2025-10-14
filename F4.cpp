@@ -19,7 +19,10 @@ ve_may_bay::ve_may_bay(){
 ve_may_bay::~ve_may_bay(){
   cout<<"đã hủy ve may bay mã: "<<ma_ve<<endl;
 }
-
+void ve_may_bay::hien_thi_chuc_nang(){
+  cout<<"<<<<< HỦY VÉ >>>>>"<<endl;
+  cout
+}
 void ve_may_bay::in_thong_tin_ve(){
   
 }
