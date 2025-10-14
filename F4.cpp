@@ -8,3 +8,17 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+ve_may_bay::ve_may_bay(){
+  ma_ve=0;
+  ngay=0;
+  thang=0;
+  nam=0;
+  so_ghe=0;
+  loai_ve="null";
+}
+ve_may_bay::~ve_may_bay(){
+  cout<<"đã hủy ve may bay mã: "<<ma_ve<<endl;
+}
+
+}
+void in_thong_tin_ve();
