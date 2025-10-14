@@ -19,4 +19,5 @@ ve_may_bay(){
 ~ve_may_bay(){
   cout<<"đã hủy ve may bay mã: "<<ma_ve<<endl;
 }
+
 }
