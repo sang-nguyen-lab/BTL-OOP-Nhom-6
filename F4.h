@@ -13,6 +13,6 @@ ve_may_bay();
 void nhap_ve();
 void in_thong_tin_ve();
 int cap_nhat_soghe();
-void hien_thi_chuc_nang();
+void hien_thi_chuc_nang(int chose);
   
 }
