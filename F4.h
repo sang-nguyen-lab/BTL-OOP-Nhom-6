@@ -21,3 +21,5 @@ ve_may_bay(){
 }
 
 }
+void nhap_ve();
+void in_thong_tin_ve();
