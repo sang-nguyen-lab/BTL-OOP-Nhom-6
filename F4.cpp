@@ -19,10 +19,31 @@ ve_may_bay::ve_may_bay(){
 ve_may_bay::~ve_may_bay(){
   cout<<"đã hủy ve may bay mã: "<<ma_ve<<endl;
 }
-void ve_may_bay::hien_thi_chuc_nang(){
+ve_may_bay::tim_kiem_mave(int n){
+cout<<"nhập mã vé cần hủy : "<<endl;
+cin>>n;
+  if(n==ma_ve){
+    ~ve_may_bay();
+}
+void ve_may_bay::hien_thi_chuc_nang(int choice){
   cout<<"<<<<< HỦY VÉ >>>>>"<<endl;
-  cout
+   do {
+        cout << "\n===== MENU =====\n";
+        cout << "1. xoa ve \n";
+        cout << "2. Xem danh sach\n";
+        cout << "0. Thoat\n";
+        cout << "Lua chon: ";
+        cin >> choice;
+        cin.ignore();
+
+        switch (choice) {
+            case 1: ; break;
+            case 2: ; break;
+            case 0: cout << "Thoat chuong trinh!\n"; break;
+            default: cout << "Lua chon khong hop le!\n"; break;
+        }
+    } while (choice != 0);
 }
 void ve_may_bay::in_thong_tin_ve(){
-  
+  cout<<"mã vé :"
 }
