@@ -6,10 +6,11 @@
 #include "F5.h"
 #include "F6.h"
 #include "F7.h"
-
+#include <windows.h> 
 using namespace std;
 
 int main() {
+    SetConsoleOutputCP(65001);
     int choice;
     do {
         cout << "\n===== MENU =====\n";
